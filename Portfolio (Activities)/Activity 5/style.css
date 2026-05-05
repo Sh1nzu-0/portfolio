@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+    background-image: url('Images/tree.jpg');
+}
+
+.header {
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+    border-color: black;
+    align-content: center;
+    background-color: maroon;
+}
+
+.header p{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+    border-color: black;
+    align-content: center;
+    background-color: maroon;
+}
+
+.navbar a{
+    color: white;
+}
+
+.main {
+    width: 80%;
+    text-align: center;
+    color: white;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+    border-color: black;
+    background-color: maroon
+}
+
+.footer {
+    width: 80%;
+    color: white;
+    padding: 5px 5px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+    border-color: black;
+    background-color: maroon
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0%;
+    background-color: maroon;
+}
+
+.main iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
